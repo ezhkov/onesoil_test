@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
     dir: { input: 'src', output: 'dist', data: '_data' },
     passthroughFileCopy: true,
     templateFormats: ['njk', 'md', 'css', 'html', 'yml'],
-    htmlTemplateEngine: 'njk'
+    htmlTemplateEngine: 'njk',
+    pathPrefix: "/silly-eleventy-demo/",
   }
 }
