@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow_left_calendar" transform="translate(-4.000000, -2.000000)" fill="#222222" fill-rule="nonzero">
+            <polygon id="Shape" transform="translate(7.705000, 8.000000) scale(-1, 1) translate(-7.705000, -8.000000) " points="5.41 2 4 3.41 7.58 7 8.61 8 7.58 9 4 12.59 5.41 14 11.41 8"></polygon>
+        </g>
+    </g>
+</svg>

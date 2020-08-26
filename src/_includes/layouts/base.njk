@@ -12,6 +12,9 @@
 </head>
 <body id="top" itemscope itemtype="http://schema.org/WebPage">
   {{ content | safe }}
-  <script src="/scripts/index.js"></script>
+  <script defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAud9F7T690-0bY0_blj8n6tMPCWqjY_I0&callback=initMap">
+  </script>
+  <script defer src="/scripts/index.js"></script>
 </body>
 </html>
