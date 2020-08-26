@@ -15,7 +15,8 @@
     "serve": "light-server -c .lightserverrc",
     "dev": "npm-run-all clean styles:dev scripts:dev eleventy:default --parallel eleventy:watch serve --print-label",
     "dev:debug": "DEBUG=* npm run dev",
-    "build": "run-s clean styles:prod scripts:prod eleventy:default --print-label"
+    "build": "run-s clean styles:prod scripts:prod eleventy:default --print-label",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -43,6 +44,7 @@
     "cssnano-preset-advanced": "^4.0.7",
     "date-fns": "^2.15.0",
     "expando": "0.0.1",
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "pikaday": "^1.8.0",
