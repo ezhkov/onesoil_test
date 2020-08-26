@@ -1,8 +1,17 @@
----
-layout: layouts/base.njk
-title: Тестовое задание для OneSoil
----
-<div class="side-panel">
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <script>
+    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'has-js ';
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>Тестовое задание для OneSoil</title>
+  <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body id="top" itemscope itemtype="http://schema.org/WebPage">
+  <div class="side-panel">
   <header class="site-header">
     <a href="/" class="logo"><svg width="32" height="33" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0 .5)" fill="none" fill-rule="evenodd"><ellipse fill="#27AE60" cx="15.999" cy="16" rx="15.999" ry="16"/><path d="M9.999 16.242c0-4.225 1.99-7.116 1.99-7.116l.482-.625c.233.116.854.288 1.64.504 1.223.336 2.838.78 4 1.297.95.425 1.914 1.004 2.64 1.905.727.902 1.18 2.13 1.18 3.59 0 1.572-.68 2.692-1.365 3.336-.33.31-.667.524-.935.666.304 1.501.314 2.963.314 4.162h-1.99v-.387c.006-2.67.016-5.429-2.89-7.777l1.21-1.62c1.356 1.096 2.227 2.327 2.767 3.59l.055-.043a.743.743 0 0 0 .1-.084c.369-.35.748-.838.748-1.843 0-1.052-.298-1.727-.748-2.287-.45-.56-1.087-1.02-1.863-1.366-.777-.347-1.595-.58-2.388-.807-.55-.157-1.087-.31-1.592-.495-.378.627-1.365 2.418-1.365 5.4 0 1.938.514 2.768.96 3.177.45.408.978.476 1.182.476.258 0 .698-.2 1.261-.454.217-.097.45-.203.7-.308l.743 1.874c-.165.07-.34.161-.524.257-.582.303-1.278.664-2.18.664a3.79 3.79 0 0 1-2.518-1.017c-.925-.853-1.614-2.346-1.614-4.67z" fill="#FFF"/></g></svg></a>
     <nav class="header-nav">
@@ -479,3 +488,10 @@ title: Тестовое задание для OneSoil
     <button class="zoom-button zoom-button--minus"></button>
   </div>
 </div>
+
+  <script defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAud9F7T690-0bY0_blj8n6tMPCWqjY_I0&callback=initMap">
+  </script>
+  <script defer src="/scripts/index.js"></script>
+</body>
+</html>
