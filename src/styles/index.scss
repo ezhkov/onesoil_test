@@ -667,6 +667,11 @@ body {
   }
 }
 
+label.primary-button {
+  display: block;
+  text-align: center;
+}
+
 .maps-body {
   flex-grow: 1;
   background: #ccc;
@@ -822,3 +827,9 @@ body {
   }
 }
 
+[type=file] {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(0,0,0,0);
+}
